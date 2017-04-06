@@ -1,0 +1,25 @@
+# Añadir lo necesario para ignorar:
+# - Todos los tipos de ficheros que no deberian estar en ninguna ruta (dll, exe, apk, ipa, orig, dest, etc.)
+
+*.dll
+*.exe
+*.apk
+*.ipa
+*.orig
+*.dest
+
+# - Las carpetas que no deberian subirse (bin, obj, packages, etc.)
+
+[bB]in/
+[bB]in - Copy*/
+[oO]bj/
+[pP]ackages/
+node-modules/
+
+# - Ignorar ficheros de preferencias de usuarios, y de plataforma windows/mac (thumbs/.ds_store)
+
+[tT]humbs
+*.ds_store
+*.userprefs
+
+
