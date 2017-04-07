@@ -5,7 +5,9 @@
   "main": "dist/test.js",
   "scripts": {
     "start": "npm run build:live",
-    "build:live": "nodemon --exec ts-node ./src/test.ts",
+    "build": "ts-node ./src/test.ts",
+    "compile": "tsc ./src/test.ts --outDir dist/ --sourceMap",
+    "build:live": "nodemon --inspect --exec ts-node ./src/test.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

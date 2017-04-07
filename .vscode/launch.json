@@ -7,16 +7,16 @@
         {
             "type": "node",
             "request": "launch",
+            "cwd": "${workspaceRoot}",
             "name": "Iniciar programa",
-            "program": "${workspaceRoot}\\src\\test.js",
-            "outFiles": []
+            "program": "${workspaceRoot}\\dist\\test.js",
+            "outFiles": [],
+            "console": "internalConsole"
         },
         {
             "type": "node",
             "request": "attach",
             "name": "Asociar al puerto",
-            "address": "localhost",
-            "port": 5858,
             "outFiles": []
         }
     ]
