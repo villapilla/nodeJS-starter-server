@@ -14,7 +14,7 @@
 [bB]in - Copy*/
 [oO]bj/
 [pP]ackages/
-node-modules/
+node_modules/
 
 # - Ignorar ficheros de preferencias de usuarios, y de plataforma windows/mac (thumbs/.ds_store)
 
